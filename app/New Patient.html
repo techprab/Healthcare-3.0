@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+    <title>healthcare 3.0</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/web3@latest/dist/web3.min.js"></script>
+    <script src="app.js"></script>
+
+
+</head>
+<body>
+    
+    <header >
+        <nav class="navbar">
+
+         <div class="logo">
+            <img style="width: 100px" src="img/logo.png" alt="logo_img">
+         </div>
+         <div class="nav-list">
+                
+                    
+            <button onclick="Connect()">Connect with metamask</button>
+        
+    </div> 
+        </nav>
+    </header>
+
+
+    <main>
+        <div class="contact-box">
+            <form method="post">
+                
+                <h2>Patient Form</h2>
+                
+                <div class="name">
+                    <label for="Sname">Full Name:</label>
+                    <input type="text" id="Sname" name="Sname">
+                </div>
+
+                <div class="gender">
+                    <label for="Ugender">Gender :</label>
+                    <label for="Male">Male</label>
+                    <input type="radio" name="Ugender" id="Male">
+                    <label for="Female">Female</label>
+                    <input type="radio" name="Ugender" id="Female">
+                </div>
+
+                <div class="age">
+                    <label for="Sname">Age</label>
+                    <input type="text" id="Sname" name="Sname">
+                </div>
+
+
+                <div class="phone">
+                    <label for="phone"> Contact </label>
+                    <input type="number" name="phone" id="phone">
+                </div>
+                
+
+                <div class="language">
+                    <label for="language">Alergy/ies </label>
+                    <input type="checkbox">
+                    <label for="english">A1</label>
+                    <input type="checkbox">
+                    <label for="hindi">A2</label>
+                    <input type="checkbox">
+                    <label for="japanese">A3</label>
+                </div>
+
+                <div class="age">
+                    <label for="Sname">Add your Doctor</label>
+                    <input type="text" id="Sname" name="Sname">
+                </div>
+
+                <div class="submit">
+                    <button type="button" onclick="Connect()">Get Patient ID</button>
+
+                </div>
+
+
+
+            </form>
+        </div>
+    </main>
+
+</body>
+</html>

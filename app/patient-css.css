@@ -1,0 +1,93 @@
+/* CSS Reset */
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url('img/medicine.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+}
+
+
+
+/* Navbar CSS */
+.navbar{
+
+    color: white;
+    display: flex;  
+    align-items: center;
+
+}
+
+.navbar .logo{
+    margin-left: 25px;
+    margin-top: 10px;
+}
+
+.navbar .nav-list{
+    margin-left: 50%;
+}
+
+.navbar ul{
+    display: flex;
+
+}
+
+.navbar ul li{
+
+    list-style: none;
+    margin: 5px;
+    margin-right: 60px;
+    font-family: 'Lucida Sans';
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+
+/* FORM CSS */
+.contact-box{
+    /* border: 2px solid white; */
+    height: 80vh;
+    width: 70vw ;
+    margin-top: 30px;
+    margin-left: 40px;
+    font-family: 'Lucida Sans';
+}
+
+
+.contact-box form{
+    padding-left: 40px;
+    border: 2px solid red;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.559);
+    height: 100%;
+}
+
+
+.contact-box h2{
+    font-size: 50px;
+    color: red;
+}
+
+.contact-box div{
+    margin: 10px 10px;
+    font-weight: bolder;
+
+}
+
+
+.contact-box .submit{
+   margin-top: 30px; 
+}
+
+
+.submit button{
+    padding: 5px 50px 5px 50px;
+    border: 2px solid red;
+    cursor: pointer;
+}
+
+

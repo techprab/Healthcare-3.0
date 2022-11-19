@@ -1,0 +1,267 @@
+/* CSS Reset */
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url('img/medicince.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    backdrop-filter: blur(7px);    
+    
+}
+
+
+
+/* Navbar CSS */
+.navbar{
+
+    color: white;
+    display: flex;  
+    align-items: center;
+
+}
+
+.navbar .logo{
+    margin-left: 25px;
+    margin-top: 10px;
+}
+
+.navbar .nav-list{
+    margin-left: 70%;
+}
+
+.navbar ul{
+    display: flex;
+
+}
+
+.navbar ul li{
+
+    list-style: none;
+    margin: 5px;
+    margin-right: 60px;
+    font-family: 'Lucida Sans';
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+
+.main-content{
+            /* height: 90vh; */
+            /* border: 2px solid red; */
+            margin-top: 130px;
+            color: white;
+            font-family: 'Lucida Sans';
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            font-size: 50px;
+            color:#F4F8FB;
+
+        }
+        .main-content h2{
+            margin: 0;
+
+        }
+
+        #patient{
+            border: 2px solid red;
+            background-color:rgba(165, 42, 42, 0.571);
+            /* border-radius: 10px; */
+    
+            margin-top: 10px ;
+            
+
+        }
+
+        #patient a, #doctor a{
+            text-decoration: none;
+        }
+
+        #doctor{
+            
+        
+            border: 2px solid red;
+            background-color:rgba(165, 42, 42, 0.571);
+            /* border-radius: 10px; */
+    
+            margin-top: 10px ;
+            margin-left: 10px;
+        
+
+        }
+
+
+
+        .main-content .main-btn h4{
+            margin: 0;
+            padding: 0;
+            padding: 15px 45px 15px 45px;
+            font-size: 25px;
+            color: white;
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            cursor: pointer;
+
+
+        }
+
+
+        .flexbox{
+
+            display: flex;
+            margin: 20px;
+            justify-content: center;
+            align-items: center;
+        }
+
+
+/* Doctor CSS */
+
+/* FORM CSS */
+.contact-box{
+    /* border: 2px solid white; */
+    height: 80vh;
+    width: 70vw ;
+    margin-top: 30px;
+    margin-left: 40px;
+    font-family: 'Lucida Sans';
+}
+
+
+.contact-box form{
+    padding-left: 40px;
+    border: 2px solid red;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.559);
+    height: 95%;
+}
+
+
+.contact-box h2{
+    font-size: 50px;
+    color: red;
+}
+
+.contact-box div{
+    margin: 10px 10px;
+    font-weight: bolder;
+
+}
+
+
+.contact-box .submit{
+   margin-top: 30px; 
+}
+
+
+.submit button{
+    padding: 5px 50px 5px 50px;
+    border: 2px solid red;
+    cursor: pointer;
+
+
+
+
+
+
+/* CSS Reset */
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url('img/medicine.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+}
+
+
+
+/* Navbar CSS */
+.navbar{
+
+    color: white;
+    display: flex;  
+    align-items: center;
+
+}
+
+.navbar .logo{
+    margin-left: 25px;
+    margin-top: 10px;
+}
+
+.navbar .nav-list{
+    margin-left: 50%;
+}
+
+.navbar ul{
+    display: flex;
+
+}
+
+.navbar ul li{
+
+    list-style: none;
+    margin: 5px;
+    margin-right: 60px;
+    font-family: 'Lucida Sans';
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+
+/* FORM CSS */
+.contact-box{
+    /* border: 2px solid white; */
+    height: 80vh;
+    width: 70vw ;
+    margin-top: 30px;
+    margin-left: 40px;
+    font-family: 'Lucida Sans';
+}
+
+
+.contact-box form{
+    padding-left: 40px;
+    border: 2px solid red;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.559);
+    height: 100%;
+}
+
+
+.contact-box h2{
+    font-size: 50px;
+    color: red;
+}
+
+.contact-box div{
+    margin: 10px 10px;
+    font-weight: bolder;
+
+}
+
+
+.contact-box .submit{
+   margin-top: 30px; 
+}
+
+
+.submit button{
+    padding: 5px 50px 5px 50px;
+    border: 2px solid red;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+/*ENd Doctor CSS */
